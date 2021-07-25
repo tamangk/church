@@ -1,9 +1,18 @@
 import './App.css';
+import About from './components/About';
+import Header from './components/Header';
+import Sliders from './components/Sliders';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome!</h1>
+      <Header />
+      <Sliders />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }
